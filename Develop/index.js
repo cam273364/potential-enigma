@@ -12,6 +12,7 @@ const questions = [
     {type: "list", name: "license", message: "Here are the choices of licenses", choices: ["MIT", "ISC"]},
     {type: "input", name: "contributing", message: "Who contributed to this project?"},
     {type: "input", name: "tests", message: "What types of tests did you employ?"},
+    {type: "input", name: "github", message: "What is your github user name?"}
 
 
 ];

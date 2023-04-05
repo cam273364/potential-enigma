@@ -35,11 +35,14 @@ function generateMarkdown(data) {
   ${data.contributing}
   ### Tests
   ${data.tests}
-
+  ### Questions for Developer/s?
+  [${data.github}](https://github.com/${data.github})
 
   
+  
+  
 `;
- 
+
 }
 
 // module.exports = generateMarkdown;

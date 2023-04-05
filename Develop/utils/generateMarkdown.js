@@ -23,17 +23,17 @@ function generateMarkdown(data) {
   ${badge}
 
   # ${data.title} 
-  ###Description
+  ### Description
   ${data.description}
-  ###Table of Contents
+  ### Table of Contents
   ${data.tableOfContents}
-  ###Installation
+  ### Installation
   ${data.installation}
-  ###Usage
+  ### Usage
   ${data.usage}
-  ###Contributing
+  ### Contributing
   ${data.contributing}
-  ###Tests
+  ### Tests
   ${data.tests}
 
 

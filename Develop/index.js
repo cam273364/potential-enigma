@@ -13,6 +13,8 @@ const questions = [
     {type: "input", name: "contributing", message: "Who contributed to this project?"},
     {type: "input", name: "tests", message: "What types of tests did you employ?"},
     {type: "input", name: "github", message: "What is your github user name?"}
+    {type: "input", name: "email", message: "What are the contributors email addresses"}
+    //later on to make this better I should add a question about how many contributors there are and use conditionals to make the format better
 
 
 ];
